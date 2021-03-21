@@ -16,7 +16,10 @@
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": [
+		"streetsidesoftware.code-spell-checker",
+		"DavidAnson.vscode-markdownlint"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
