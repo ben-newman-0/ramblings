@@ -14,6 +14,16 @@
             "isBackground": true,
         },
         {
+            "label": "Serve - Include Drafts",
+            "type": "shell",
+            "command": "bundle exec jekyll serve --livereload --drafts",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "isBackground": true,
+        },
+        {
             "label": "Build",
             "type": "shell",
             "command": "bundle exec jekyll build",
