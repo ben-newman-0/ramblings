@@ -80,7 +80,7 @@ This is how I created a [WordPress](https://wordpress.org/) blog that is hosted 
 
     ```bash
     docker exec -it blog-wordpress /bin/bash
-    apt-get update &amp;&amp; apt-get -y install vim
+    apt-get update && apt-get -y install vim
     ```
 
 1. Open wp-config.php using vi and add rules to configure the WordPress instance at the /blog sub directory (see indented lines)
